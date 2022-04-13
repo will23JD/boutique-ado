@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100hv - 164px);
+    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
@@ -74,13 +74,13 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #fff;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
@@ -102,7 +102,7 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/* -------------------------------- bootstrap toast */
+/* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
